@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* global preset that applys to everything */
+body {
+    background-color: #0c7183;
+}
+/* the color of the entire background on the webpage */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+.header section {
+    padding-top: 15px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header section ul {
+    list-style-type: none;
+}
+
+.header section ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+}
+
+p {
+    font-size: 15px;
+}
+
+.header-image {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../../assets/images/header.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: flex; flex-direction: row;
+    margin-left: 20px;
+}
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/* The positioning of the side bar backgroung that contains the benifit section */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* The spacing between each benifit title and image */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* Targeting the lead benifit to design the alighnment */
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* Targeting the brand benifit to design the alighment */
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* Targeting the cost benifit to design the alignment */
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* This is for the postion and sizing the the image for the lead benifit section */
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* This is for the postion and sizing the the image for the brand benifit section */
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* This is for the postion and sizing the the image for the cost benifit section */
+.About-me {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    text-decoration: underline;
+}
+/* This is positioning, size, font, and the color of the background of the search-engine-optimization section */
+.Work {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    text-decoration: underline;
+}
+/* This is positioning, size, font, and the color of the background of the online-repuation-management */
+.Contact-me {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    text-decoration: underline;
+}
+/* This is positioning, size, font, and the color of the background of the social-media-markenting */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+/* Limiting the size of the image inside the search-engine-optimization */ 
+.online-reputation-management img {
+    max-height: 200px;
+}
+/* Limiting the size of the image inside the online-reputation-management */ 
+.social-media-marketing img {
+    max-height: 200px;
+}
+/* Limiting the size of the image inside the social-media-marketing */ 
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* The spacing and font size the search-engine-optimization section */
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* The spacing and font size the online-reputation-management section */
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* The spacing and font size the social-media-marketing section */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/* Clear is telling the footer it must below all the other elements. the footer is also telling the text to be cnetered and what font it wants it to be */
+.footer h2 {
+    font-size: 20px;
+}
+/* Telling the footer what it wants the text size to be */
