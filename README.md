@@ -31,3 +31,7 @@ Badges aren't necessary, but they demonstrate street cred. Badges let other deve
 ## Features
 
 If your project has a lot of features, list them here.
+
+![image1](./assets/images/image1.png)
+![image1](./assets/images/image2.png)
+![image1](./assets/images/image3.png)
